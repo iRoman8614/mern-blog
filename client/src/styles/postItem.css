@@ -1,0 +1,57 @@
+.postContainer {
+    width: 98%;
+    background-color: burlywood;
+    margin-bottom: 2%;
+    padding: 10px;
+}
+
+.postImg {
+    display: flex;
+    justify-content: center;
+}
+
+.postImg > img {
+    width: 100%;
+}
+
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postAuthor {
+    font-size: 16px;
+    color: gray
+}
+
+.postData {
+    font-size: 16px;
+    color: gray
+}
+
+.postTitle {
+    font-size: 20px;
+    color: black
+}
+
+
+.postText {
+    font-size: 15px;
+}
+
+
+.postActivity {
+    display: flex;
+    justify-content: end;
+}
+
+.postActivity > button {
+    background-color: burlywood;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.postActivity > button > span {
+    margin-left: 5px;
+}

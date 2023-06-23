@@ -1,0 +1,21 @@
+.mainPageContainer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    margin: auto;
+}
+
+.postsZone {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.famousZone {
+    grid-column-start: 3;
+}
+
+.mainPageTitle {
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 22px;
+}

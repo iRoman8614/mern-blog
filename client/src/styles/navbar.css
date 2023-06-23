@@ -1,0 +1,51 @@
+.navbar {
+    margin-top: 0;
+    margin: auto;
+    align-items: center;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #144E5A;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    text-align: center;
+    font-size: large;
+    color: #FFE2C8;
+}
+
+.navbarAuthContainer {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarAuthItem {
+    margin: 10px;
+}
+
+.logoutButton {
+    width: 100px;
+    height: 30px;
+    margin: 35px, 10px, 15px, 15px;
+    border: none;
+    text-align: center;
+    background-color: crimson;
+    color: wheat;
+    border-radius: 25px;
+}
+
+.navbar > .NavLink {
+    width: 100px;
+    height: 30px;
+    margin: 35px, 10px, 15px, 15px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    background-color: crimson;
+    color: wheat;
+    border-radius: 25px;
+    text-decoration: none;
+}

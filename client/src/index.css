@@ -1,0 +1,20 @@
+@import './styles/navbar.css';
+@import './styles/popularPostItem.css';
+@import './styles/postItem.css';
+@import './styles/mainPage.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFE2C8;
+  margin: auto;
+  width: 1140px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  width: 300px;
+}
